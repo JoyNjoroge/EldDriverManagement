@@ -19,7 +19,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png", // Use existing icon
         "backgroundColor": "#007BFF"
       },
       "package": "com.yourcompany.elddriver"
