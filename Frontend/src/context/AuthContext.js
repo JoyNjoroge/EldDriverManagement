@@ -1,5 +1,6 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import * as SecureStore from 'expo-secure-store';
+import { router } from 'expo-router';
 import { STORAGE_KEYS } from '../utils/constants';
 
 const AuthContext = createContext();
@@ -27,11 +28,19 @@ export const AuthProvider = ({ children }) => {
       const userData = await SecureStore.getItemAsync(STORAGE_KEYS.USER_DATA);
       
       if (token && userData) {
-        setUser(JSON.parse(userData));
+        const parsedUser = JSON.parse(userData);
+        setUser(parsedUser);
         setIsAuthenticated(true);
+        
+        // If user is authenticated, redirect to tabs
+        router.replace('/(tabs)');
+      } else {
+        // If no token, redirect to login
+        router.replace('/(auth)/login');
       }
     } catch (error) {
       console.error('Auth check error:', error);
+      router.replace('/(auth)/login');
     } finally {
       setIsLoading(false);
     }
@@ -60,6 +69,9 @@ export const AuthProvider = ({ children }) => {
         setUser(mockUser);
         setIsAuthenticated(true);
         
+        // Navigate to main app after successful login
+        router.replace('/(tabs)');
+        
         return { success: true, user: mockUser };
       } else {
         return { success: false, error: 'Invalid credentials' };
@@ -74,13 +86,19 @@ export const AuthProvider = ({ children }) => {
 
   const logout = async () => {
     try {
+      setIsLoading(true);
       await SecureStore.deleteItemAsync(STORAGE_KEYS.AUTH_TOKEN);
       await SecureStore.deleteItemAsync(STORAGE_KEYS.USER_DATA);
       
       setUser(null);
       setIsAuthenticated(false);
+      
+      // Navigate to login screen after logout
+      router.replace('/(auth)/login');
     } catch (error) {
       console.error('Logout error:', error);
+    } finally {
+      setIsLoading(false);
     }
   };
 

@@ -5,7 +5,6 @@ import {
   StyleSheet,
   ScrollView,
   Alert,
-  ActivityIndicator,
 } from 'react-native';
 import { useTheme } from 'react-native-paper';
 import { Card, CardHeader, CardContent, CardTitle } from '../components/ui/Card';
@@ -717,16 +716,6 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.GRAY_100,
     borderBottomWidth: 1,
     borderBottomColor: COLORS.GRAY_300,
-  },
-  tableRow: {
-    flexDirection: 'row',
-    borderBottomWidth: 1,
-    borderBottomColor: COLORS.GRAY_200,
-  },
-  tableRow: {
-    flexDirection: 'row',
-    borderBottomWidth: 1,
-    borderBottomColor: COLORS.GRAY_200,
   },
   tableRow: {
     flexDirection: 'row',
