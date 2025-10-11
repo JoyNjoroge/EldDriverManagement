@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 // Import screens
 import DashboardScreen from '../screens/DashboardScreen';
-import LogManagementScreen from '../screens/LogManagementScreen';
+import LogManagementScreen from '../screens/LogManagementscreen';
 import InspectionModeScreen from '../screens/InspectionModeScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 

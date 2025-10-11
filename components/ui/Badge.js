@@ -1,0 +1,1 @@
+export { default } from '../../Frontend/src/components/ui/Badge.js';
