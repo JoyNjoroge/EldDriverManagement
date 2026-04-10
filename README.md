@@ -43,9 +43,9 @@ The system is engineered for the "road reality," featuring an **offline-first ar
 *Seamless onboarding with a high-visibility control center.*
 
 <p align="center">
-  <img src="Assets/Login.jpeg" width="32%" />
-  <img src="Assets/Dashboard.jpeg" width="32%" />
-  <img src="Assets/Profile.jpeg" width="32%" />
+  <img src="Assets/Login.jpeg" width="30%" />
+  <img src="Assets/Dashboard.jpeg" width="30%" />
+  <img src="Assets/Profile.jpeg" width="30%" />
 </p>
 
 ---
@@ -54,8 +54,8 @@ The system is engineered for the "road reality," featuring an **offline-first ar
 *Detailed history tracking and secure roadside inspection mode.*
 
 <p align="center">
-  <img src="Assets/Log%20Entries.jpeg" width="48%" />
-  <img src="Assets/Inspection%20Mode.jpeg" width="48%" />
+  <img src="Assets/Log%20Entries.jpeg" width="30%" />
+  <img src="Assets/Inspection%20Mode.jpeg" width="30%" />
 </p>
 
 ---
@@ -64,7 +64,7 @@ The system is engineered for the "road reality," featuring an **offline-first ar
 *Granular control over device sync, dark mode, and location tracking.*
 
 <p align="center">
-  <img src="Assets/Profile2.jpeg" width="48%" />
+  <img src="Assets/Profile2.jpeg" width="30%" />
 </p>
 
 ---
@@ -81,7 +81,7 @@ The system is engineered for the "road reality," featuring an **offline-first ar
 1. **Clone the Repository**
    ```bash
    git clone [https://github.com/yourusername/eld-driver-app.git](https://github.com/yourusername/eld-driver-app.git)
-````
+
 
 2.  **Backend Setup**
 
@@ -101,13 +101,9 @@ The system is engineered for the "road reality," featuring an **offline-first ar
 
 > Scan the QR code with the **Expo Go** app to view the project on your physical device.
 
------
-
 ## 👨‍💻 Author
 
 **Joy Njoroge** *Quant-Dev / Data Analyst*
 
   * **Portfolio:** [www.joynjoroge.site](http://www.joynjoroge.site)
   * **LinkedIn:** [joynjorogesaas](https://www.google.com/search?q=https://linkedin.com/in/joynjorogesaas)
-
-<!-- end list -->
