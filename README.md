@@ -47,30 +47,30 @@ This project demonstrates the integration of complex regulatory requirements wit
 The application features a streamlined authentication process with built-in demo credentials for easy stakeholder review.
 
 <p align="center">
-  <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/screenshots/1000927967.jpg?raw=true" width="300" alt="Login Screen">
+  <img src="Assets/Login.jpeg" width="300" alt="Login Screen">
 </p>
 
 ### 2. Driver Command Center
 The dashboard provides high-visibility HOS (Hours of Service) timers and quick-action toggles for status changes, optimized for in-cab use.
 
 <p align="center">
-  <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/screenshots/1000927968.jpg?raw=true" width="300" alt="Dashboard">
-  <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/screenshots/1000927971.jpg?raw=true" width="300" alt="Driver Profile">
+  <img src="Assets/Dashboard.jpeg" width="300" alt="Dashboard">
+  <img src="Assets?Profile.jpeg" width="300" alt="Driver Profile">
 </p>
 
 ### 3. Compliance & Logging
 Detailed log management allows drivers to certify their status and review trip history with precision, ensuring full FMCSA compliance.
 
 <p align="center">
-  <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/screenshots/1000927969.jpg?raw=true" width="300" alt="Log Entries">
-  <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/screenshots/1000927970.jpg?raw=true" width="300" alt="Inspection Mode">
+  <img src="Assets.Log Entries.jpeg" width="300" alt="Log Entries">
+  <img src="Assets.Inspection Mode.jpeg" alt="Inspection Mode">
 </p>
 
 ### 4. Advanced Configuration
 Full support for offline modes, dark theme preferences, and localized tracking settings to enhance the driver experience in remote areas.
 
 <p align="center">
-  <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/screenshots/1000927972.jpg?raw=true" width="300" alt="Settings Page">
+  <img src="Assets/Profile2.jpeg" width="300" alt="Settings Page">
 </p>
 
 🚦 Getting Started
@@ -105,12 +105,8 @@ Installation
 
 👨‍💻 Author
 
-[Your Name] – Quant-Dev / Data Analyst
+Joy Njoroge – Quant-Dev / Data Analyst
 
-    Portfolio: [Link to your site]
+    Portfolio: www.joynjoroge.site
 
-    LinkedIn: [Link to your profile]
-
-Pro-Tip for the "Harvey Specter" Vibe:
-
-In your repository, make sure you have a folder named /docs that includes a PDF or Markdown file explaining the HOS Calculation Logic. Showing a recruiter that you can translate "14-hour on-duty rules" into clean Python logic is what will get you the "Quant" roles you're looking for.
+    LinkedIn: https://linkedin/in/joynjorogesaas
