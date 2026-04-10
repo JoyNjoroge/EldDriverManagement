@@ -1,4 +1,3 @@
-````markdown
 # 🚛 ELD Driver Management System (FleetLog)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -112,5 +111,3 @@ The system is engineered for the "road reality," featuring an **offline-first ar
   * **LinkedIn:** [joynjorogesaas](https://www.google.com/search?q=https://linkedin.com/in/joynjorogesaas)
 
 <!-- end list -->
-
-```
