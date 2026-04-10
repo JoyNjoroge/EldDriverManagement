@@ -1,112 +1,116 @@
-#**ELD Driver Management System (FleetLog)**#
-📌 Project Overview
+````markdown
+# 🚛 ELD Driver Management System (FleetLog)
 
-FleetLog is a comprehensive Electronic Logging Device (ELD) solution designed for the trucking and logistics industry. It streamlines Hours of Service (HOS) tracking, ensuring drivers remain compliant with FMCSA regulations through an intuitive, data-driven mobile interface.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![FMCSA Certified](https://img.shields.io/badge/Compliance-FMCSA--Certified-green.svg)](#)
+[![Expo](https://img.shields.io/badge/Framework-Expo--React_Native-black.svg?logo=expo)](https://expo.dev/)
 
-This project demonstrates the integration of complex regulatory requirements with a high-performance, offline-first mobile architecture.
-🚀 Key Features
-1. Regulatory Compliance (HOS)
+## 📌 Project Overview
+**FleetLog** is a high-performance Electronic Logging Device (ELD) solution tailored for the logistics industry. It automates **Hours of Service (HOS)** tracking to ensure strict adherence to FMCSA regulations. 
 
-    Real-time HOS Monitoring: Dynamic tracking of "Drive," "On Duty," and "Cycle" timers with visual progress indicators.
+The system is engineered for the "road reality," featuring an **offline-first architecture** and an **Expo-managed workflow** that ensures data integrity even in cellular dead zones.
 
-    Automatic Log Certification: Logic-driven workflow for drivers to certify daily logs, reducing human error.
+---
 
-    Inspection Mode: One-tap activation to share encrypted ELD data via QR Code, USB, or Bluetooth with law enforcement.
+## 🚀 Key Features
 
-2. Advanced Engineering
+### 1. Regulatory Compliance (HOS)
+* **Real-time Monitoring:** Dynamic countdowns for "Drive," "On Duty," and "Cycle" timers.
+* **Log Certification:** Logic-driven workflows that validate driver entries before submission.
+* **Inspection Mode:** Instant data sharing (QR/USB/BT) for streamlined roadside law enforcement checks.
 
-    Offline-First Strategy: Built to function in "Dead Zones" with robust background synchronization when connectivity is restored.
+### 2. Advanced Engineering
+* **Offline-First Sync:** Robust background synchronization logic for remote area operations.
+* **Fleet Telematics:** Integrated GPS tracking and real-time vehicle diagnostics (VIN/Odometer).
+* **Security:** JWT-secured authentication and read-only compliance modes.
 
-    Fleet Telematics Integration: Real-time location tracking (GPS) and vehicle health diagnostics (Odometer, Last Service, VIN tracking).
+### 3. User-Centric Design
+* **Operational Ergonomics:** Dark Mode support for night driving and high-contrast UI for daylight.
+* **Voice Alerts:** Proactive audio cues for violation warnings and status updates.
 
-    Security: Read-only Inspection Mode ensures data integrity during roadside checks.
+---
 
-3. User-Centric Design
+## 🛠 Tech Stack
+* **Frontend:** React Native with **Expo** (Managed Workflow)
+* **Backend:** Python (FastAPI / Flask)
+* **Database:** PostgreSQL + TimescaleDB (Time-series optimization)
+* **Infrastructure:** Docker, JWT Auth, Google Maps API
 
-    Dark Mode Support: Optimized for night-time driving to reduce eye strain.
-
-    Voice Alerts: Audio notifications for status changes and potential violations.
-
-    Quick Actions: Simplified UI for vehicle checks, document management, and trip starts.
-
-🛠 Tech Stack
-
-    Frontend: React / React Native (Cross-platform mobile optimization)
-
-    Backend: Python Flask / FastAPI (High-concurrency data processing)
-
-    Database: PostgreSQL with TimescaleDB (Optimized for time-series log data)
-
-    Authentication: JWT-based secure driver login
-
-    Third-Party APIs: Google Maps API for real-time tracking, FMCSA compliance endpoints.
+---
 
 ## 📸 Application Preview
 
-### 1. Seamless Onboarding
-The application features a streamlined authentication process with built-in demo credentials for easy stakeholder review.
+### 1. Authentication & Dashboard
+*Seamless onboarding with a high-visibility control center.*
 
 <p align="center">
-  <img src="Assets/Login.jpeg" width="300" alt="Login Screen">
+  <img src="Assets/Login.jpeg" width="32%" />
+  <img src="Assets/Dashboard.jpeg" width="32%" />
+  <img src="Assets/Profile.jpeg" width="32%" />
 </p>
 
-### 2. Driver Command Center
-The dashboard provides high-visibility HOS (Hours of Service) timers and quick-action toggles for status changes, optimized for in-cab use.
+---
+
+### 2. Logs & Compliance
+*Detailed history tracking and secure roadside inspection mode.*
 
 <p align="center">
-  <img src="Assets/Dashboard.jpeg" width="300" alt="Dashboard">
-  <img src="Assets/Profile.jpeg" width="300" alt="Driver Profile">
+  <img src="Assets/Log%20Entries.jpeg" width="48%" />
+  <img src="Assets/Inspection%20Mode.jpeg" width="48%" />
 </p>
 
-### 3. Compliance & Logging
-Detailed log management allows drivers to certify their status and review trip history with precision, ensuring full FMCSA compliance.
+---
+
+### 3. Settings & Offline Management
+*Granular control over device sync, dark mode, and location tracking.*
 
 <p align="center">
-  <img src="Assets/Log Entries.jpeg" width="300" alt="Log Entries">
-  <img src="Assets/Inspection Mode.jpeg" alt="Inspection Mode">
+  <img src="Assets/Profile2.jpeg" width="48%" />
 </p>
 
-### 4. Advanced Configuration
-Full support for offline modes, dark theme preferences, and localized tracking settings to enhance the driver experience in remote areas.
+---
 
-<p align="center">
-  <img src="Assets/Profile2.jpeg" width="300" alt="Settings Page">
-</p>
+## 🚦 Getting Started
 
-🚦 Getting Started
-Prerequisites
+### Prerequisites
+* Node.js v18+
+* Expo Go (on your mobile device) or an Emulator
+* Python 3.9+
 
-    Node.js v16+
+### Installation
 
-    Python 3.9+
+1. **Clone the Repository**
+   ```bash
+   git clone [https://github.com/yourusername/eld-driver-app.git](https://github.com/yourusername/eld-driver-app.git)
+````
 
-    Docker (Optional for database setup)
+2.  **Backend Setup**
 
-Installation
-
-    Clone the repo
-    Bash
-
-    git clone https://github.com/yourusername/eld-driver-app.git
-
-    Setup Backend
-    Bash
-
+    ```bash
     cd backend
     pip install -r requirements.txt
     python app.py
+    ```
 
-    Setup Frontend
-    Bash
+3.  **Frontend Setup (Expo)**
 
+    ```bash
     cd frontend
     npm install
-    npm start
+    npx expo start
+    ```
 
-👨‍💻 Author
+> Scan the QR code with the **Expo Go** app to view the project on your physical device.
 
-Joy Njoroge – Quant-Dev / Data Analyst
+-----
 
-    Portfolio: www.joynjoroge.site
+## 👨‍💻 Author
 
-    LinkedIn: https://linkedin/in/joynjorogesaas
+**Joy Njoroge** *Quant-Dev / Data Analyst*
+
+  * **Portfolio:** [www.joynjoroge.site](http://www.joynjoroge.site)
+  * **LinkedIn:** [joynjorogesaas](https://www.google.com/search?q=https://linkedin.com/in/joynjorogesaas)
+
+<!-- end list -->
+
+```
