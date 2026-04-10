@@ -1,4 +1,4 @@
-ELD Driver Management System (FleetLog)
+#**ELD Driver Management System (FleetLog)**#
 📌 Project Overview
 
 FleetLog is a comprehensive Electronic Logging Device (ELD) solution designed for the trucking and logistics industry. It streamlines Hours of Service (HOS) tracking, ensuring drivers remain compliant with FMCSA regulations through an intuitive, data-driven mobile interface.
@@ -55,15 +55,15 @@ The dashboard provides high-visibility HOS (Hours of Service) timers and quick-a
 
 <p align="center">
   <img src="Assets/Dashboard.jpeg" width="300" alt="Dashboard">
-  <img src="Assets?Profile.jpeg" width="300" alt="Driver Profile">
+  <img src="Assets/Profile.jpeg" width="300" alt="Driver Profile">
 </p>
 
 ### 3. Compliance & Logging
 Detailed log management allows drivers to certify their status and review trip history with precision, ensuring full FMCSA compliance.
 
 <p align="center">
-  <img src="Assets.Log Entries.jpeg" width="300" alt="Log Entries">
-  <img src="Assets.Inspection Mode.jpeg" alt="Inspection Mode">
+  <img src="Assets/Log Entries.jpeg" width="300" alt="Log Entries">
+  <img src="Assets/Inspection Mode.jpeg" alt="Inspection Mode">
 </p>
 
 ### 4. Advanced Configuration
